@@ -19,6 +19,7 @@ class Table:
 # If the item is already exists in the bill
 # it removes the item from the bill
         
+
     def remove(self, item, price, quantity=1):
         for i in self.bill:
             if i['item'] == item and i['price'] == price:
