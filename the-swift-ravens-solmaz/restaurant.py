@@ -1,5 +1,5 @@
 class Table:
-    
+
     def __init__(self, diners):
         self.diners = diners
         self.bill = []
@@ -14,7 +14,6 @@ class Table:
             if i['item'] == item and i['price'] == price:
                 i['quantity'] += quantity
         self.bill.append({'item': item, 'price': price, 'quantity': quantity})
-
 
 # Takes in an item, its price, and  a quantity.
 # If the item is already exists in the bill
